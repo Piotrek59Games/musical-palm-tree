@@ -47,9 +47,9 @@ function gra(Gracz){
 function reset() {
     wyborGracza.textContent = "Twój wybór:";
     wyborKomputera.textContent = "Wybór komputera:";
-    zwyciestwa.textContent = "Licznik wygranych:";
-    przegrane.textContent = "Licznik przegranych:";
-    remisy.textContent = "Licznik remisów:";
+    zwyciestwa.textContent = "Licznik wygranych: 0";
+    przegrane.textContent = "Licznik przegranych: 0";
+    remisy.textContent = "Licznik remisów: 0";
     ktoWygral.textContent = "";
     licznikWygranych = 0;
     licznikPrzegranych = 0;

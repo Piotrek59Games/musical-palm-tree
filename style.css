@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#wybory button {
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 30pt;
+}
+
+#reset {
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 15pt;
+}
+
+#reset:hover {
+    background-color: gray;
+}
+
+#wybory button:hover {
+    background-color: gray;
+}
+
+.wyniki {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#ktoWygral {
+    margin-top: 10px;
+    font-size: 20pt;
+}
+
+
+

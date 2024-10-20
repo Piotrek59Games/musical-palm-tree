@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papier kamień nożyce</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Papier kamień nożyce</h1>
+
+    <div id="wybory">
+        <button onclick="gra('Papier')">✋</button>
+        <button onclick="gra('Kamień')">👊</button>
+        <button onclick="gra('Nożyce')">✌️</button>
+    </div>
+
+    <div class="wyniki">
+        <div id="wyborGracza">Twój wybór: </div>
+        <div id="wyborKomputera">Wybór komputera:</div>
+        <div id="zwyciestwa">Licznik wygranych:</div>
+        <div id="przegrane">Licznik przegranych:</div>
+        <div id="remisy">Licznik remisów:</div>
+        <div id="ktoWygral"></div>
+    </div>
+    <button id="reset" onclick="reset()">Zresetuj</button>
+    <script src="index.js"></script>
+</body>
+</html>
